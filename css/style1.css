@@ -1,0 +1,126 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+	padding:0;
+}
+section{
+	background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkCcEm3nrarmptJtYxh5N0U2Xwko8porzMLDWQaCzjS3pkvpEGzA);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	opacity: 0.8;
+}
+nav{
+
+}
+nav ul{
+	margin:0;
+	padding:0;
+	width:100%;
+	text-align: center;
+}
+
+nav ul li{
+	display:inline-block;
+	list-style:none;
+}
+nav ul li a{
+	text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 11px 24px;
+    display: block;
+    position:relative;
+    transition:all 0.6s ease;
+    font-size: 18px;
+
+}
+nav ul li a:after{
+
+content:"";
+position:absolute;
+height:16px;
+width:2px;
+right:0;
+background:#fff;
+transition:all 0.5s ease;
+}
+nav ul li:last-child a:after{
+	background: transparent;
+}
+nav ul li a:hover{
+	color: #fff;
+	background: #386c94;
+}
+nav ul li a:hover:after{
+height:0;
+}
+.form{
+	background: #aac5ab;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	width: 360px;
+	height: auto;
+	padding-bottom: 15px;
+	box-shadow: 6px 6px 18px 0px rgba(20, 21, 21, 0.77);
+}
+
+	.form h3 {
+    text-align: center;
+    display: block;
+}
+
+.form .signup_box{
+margin: 0 auto;
+
+width: 80%;
+}
+.form span img{max-width: 33px;}
+ul{
+margin: 0;
+padding: 0;
+}
+ul li{
+list-style: none;
+}
+ul li input{   
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+} 
+.signup-button{
+	color: #fff;
+    text-transform: uppercase;
+    width: 80%;
+    padding: 10px;
+    background: #73a275;
+    margin-top: 10px;
+    border: 1px solid #4b594c;
+    box-sizing: border-box
+
+}
+.signup-button:hover{
+	color: #fff;
+background: rgba(11, 82, 130, 0.9);
+}
+.signup{
+	   margin-top: 10px;
+word-spacing: 1px;
+text-align: center;
+font-size: 13px;
+}
+.signup span a{
+color: rgb(51, 122, 183);
+text-decoration: none;
+}
+.signup span a:hover{
+	color:#23527c;
+	text-decoration:underline;
+}
